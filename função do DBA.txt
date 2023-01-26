@@ -1,0 +1,38 @@
+1. avaliar
+A primeira característica é avaliar o ambiente, o DBA, ele é o profissional que 
+avalia os hardwares necessários para a instalação e funcionamento de uma SQP, 
+ele deve avaliar se os equipamentos disponíveis são necessários, 
+para que os bancos de dados possam corresponder às necessidades operacionais da empresa.
+
+
+2. Instalar e Configurar o software
+
+4. Segurança
+
+5. buscar ter os melhores índices 
+
+6. backup
+
+6. auxiliar area de desenvolvimento
+
+cargas de lotes de dados
+criar e apagar dados indesejados
+desfragmentar banco de dados
+fazer manutenção das tabelas
+monitorar instalação do MYSQL
+
+7.  observar os recursos que estão sendo consumidos pelo banco
+
+8. configurar o ambiente, através de arquivos de inicialização e 
+dentro desses arquivos, ele pode configurar diversas propriedades, 
+como por exemplo, configurar o auto incremento do tamanho das bases, 
+gerenciar o seu crescimento, gerenciar o uso do espaço e administração 
+do esquema de dados, enfim.
+
+9. administrar os usuários que irão acessar o MySQL. 
+Ele é responsável por criar usuários básicos e avançados, 
+usuários que vão poder fazer backups, usuários que vão, 
+por exemplo, somente ler dados, enfim.
+
+Cabe a ele administrar esses usuários e determinar que 
+função cada um vai fazer dentro da base de dados.

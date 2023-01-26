@@ -1,0 +1,44 @@
+Conexão entre cliente e servidor
+
+
+
+
+Apesar de eu estar usando uma única máquina, 
+aqui está instalado o servidor e o cliente e a 
+comunicação deles está sendo feita também via TCP/IP, 
+só que as duas instâncias estão fisicamente no mesmo hardware, 
+no mesmo PC, vamos entrar no MySQL Workbench e olhar essas propriedades de conexão.
+
+
+TCP/IP: 
+
+Quando falamos de TCP, nos referimos a algo que faz toda a definição de como aplicações conseguem criar canais de comunicação através da rede. Também auxilia na quebra em pedaços de uma mensagem que será posteriormente reconstruída antes de chegar a seu destino.
+
+Uma boa analogia é compará-lo a alguém que recebe as peças e, em seguida, monta o quebra-cabeça por completo.
+
+Já o IP é o que define o endereço e o caminho do pacote de dados, ou seja, ele garante que as informações cheguem a seu destino correto. Ele é basicamente o “carteiro”, que recebe o item e o checa para ter certeza de que estará no local de seu objetivo.
+
+Tudo isso a partir do endereço IP (IP address).
+
+Sendo assim, é correto afirmar que TCP/IP é um conjunto de protocolos e um modelo de comunicação de rede. Ele serve para, principalmente, viabilizar a troca de informações entre ORIGEM e DESTINO.
+
+
+Configurações da conexão
+
+Connection name
+
+hostname: IP do servidor
+porta: 3306
+usuário 
+senha
+
+
+hostname: localhost -  conexão maquina local 
+
+
+onde conexões ficam armazenadas
+
+C:\Users\USUÁRIO\AppData\Roaming\MySQL\Workbench\connections.xml 
+
+
+ESTE ARQUIVO PODE SER COPIADO E COLADO NA PASTA DE OUTRA MÁQUINA PARA CRIAR AS MESMAS CONEXÕES 

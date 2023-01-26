@@ -1,0 +1,12 @@
+promt de comando
+precisar executar o prompt como administrador 
+
+inicializar o servio MySQL:
+
+net start mysql80
+
+
+
+para finalizar o serviço: 
+
+net start mysql80

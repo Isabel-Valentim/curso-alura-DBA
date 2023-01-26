@@ -1,0 +1,47 @@
+1) Se você está usando uma máquina limpa, deve instalar o MySQL. Para isso, siga as instruções a seguir (caso você já tenha o MySQL instalado, pode pular para o passo 22).
+
+2) Acesse o link https://www.mysql.com/downloads/, para baixar o MySQL.
+
+3) Procure por MySQL Community Edition e clique em Community (GPL) Downloads.
+
+4) Em MySQL on Windows (Installer & Tools), clique em Download.
+
+5) Clique em MySQL Installer.
+
+6) Clique no botão de download ao lado da opção Windows (x86, 32-bit), MSI Installer.
+
+7) Clique em No thanks, just start my download e espere o download terminar.
+
+8) Execute o instalador que foi baixado.
+
+9) Aceite os termos e clique em Next.
+
+10) Escolha a instalação Developer Default, clique em Next e em Next também na próxima tela.
+
+11) Clique em Execute, para fazer o download e instalação do banco e seus componentes. Terminado isso, clique em Next.
+
+12) Na próxima tela, clique em Next.
+
+13) Mantenha a escolha Standalone MySQL Server / Classic MySQL Replication e clique em Next.
+
+14) Mantenha as propriedades padrões do serviço e da porta de comunicação. Clique Next.
+
+15) Mantenha a opção Use Strong Password Encryption for Authentication. Clique em Next.
+
+16) Inclua a senha do usuário root e repita-a. Clique em Next.
+
+17) Em Windows Service, mantenha as propriedades padrões e clique em Next.
+
+18) Clique Execute para iniciar a instalação. Terminada a instalação, clique em Finish.
+
+19) Nas próximas telas, clique em Next, Finish e em Next.
+
+20) Na tela Connect To Server, digite a senha configurada anteriormente e clique em Check. Em seguida, clique em Next e em Execute em seguida.
+
+21) Finalize a instalação e automaticamente o Workbench será aberto. Clique na conexão que está configurada. Ao digitar a senha e clicar em OK, você acessará o ambiente com o MySQL no ar.
+
+22) Se você está usando uma máquina limpa, você deve recuperar a base de dados a ser usada neste curso. Para isso, siga as instruções a seguir.
+
+23) Caso ainda não tenha feito, faça o download do arquivo RecuperacaoAmbiente.zip aqui e descompate-o.
+
+24) Abra o MySQL Workbench. Utilize a conexão que está configurada.
