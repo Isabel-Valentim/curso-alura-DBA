@@ -1,0 +1,26 @@
+Tuning - Envenenar - deixar mais rápido
+
+1. trabalhando com os banco de dados e índices
+2. tuning através das variáveis internas do MySQL, 
+que a gente chama ali de MySQLD tuning 
+3. através do hardware 
+4. e do sistema operacional que o MySQL está instalado.
+
+
+Hardware
+
+- é melhor sistemal operacional de 64 Bits
+- relação entre Ram e base de dados - disponibilizar no maximo 70% de ram para os processos no MySQL
+- tipo de leitura de disco - disco SSD (memória), SCSI, SASS, SATA
+- controladora de disco RAID 
+
+RAID 0 - divisão entre dois discos rígidos
+RAID 1 ou 10 - espelhamento entre dois discos (mais seguro)
+
+
+Nuvem:
+
+Amazon, Azure, Google
+
+ 
+

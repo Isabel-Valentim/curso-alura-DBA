@@ -1,0 +1,12 @@
+- não é transacional e não implementa mecanismos de bloqueio; 
+- rápido para leitura; 
+- problemático para muitas gravações;
+
+
+variáveis ligadas ao MyISAM
+
+key_buffer_size
+concurrent_insert
+delay_key_write
+max_write_lock_count
+preload_buffer_size 

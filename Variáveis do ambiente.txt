@@ -1,0 +1,25 @@
+existem +250 
+
+O comnado SHOW STATUS mostra a situação das variáveis de ambiente
+
+dois tipos = GLOBAL E SESSION
+
+salvas em my.ini
+
+
+tabelas temporárias: 
+
+SHOW GLOBAL STATUS LIKE 'Created_tmp_tables';
+
+
+SHOW GLOBAL STATUS LIKE 'Created_tmp_disk_tables';
+
+
+aumentar a capacidade de armazenar as tabelas temporárias em memória ao invés de armazenar no disco
+
+set temp_table_size = 20000000000
+
+
+ 
+
+
