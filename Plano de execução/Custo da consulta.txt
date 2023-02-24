@@ -1,0 +1,26 @@
+# Comando explain
+
+cd\
+cd "Program Files"
+cd "MySQL"
+cd "MySQL 8.0"
+cd Bin
+
+mysql -uroot -p
+
+explain format=json SELECT A.NOME_DO_PRODUTO FROM tabela_de_produtos A (Sem ponto e vírgula)
+
+ se eu botar aqui no final da linha um “\G”, eu tenho o meu resultado, 
+invés de no formato de tabela, sequencialmente, 
+fica até mais simples de a gente poder estar olhando.
+
+
+Uma delas é essa aqui, o query cost, o query cost, 
+ele é basicamente o custo da consulta. Você vai me perguntar: 
+“Que unidade de medida é essa? É segundo? É hora? É minuto?”, 
+na verdade é uma unidade indefinida. Pense no seguinte, quanto 
+menor o query cost, mais rápida vai ser a consulta.
+Como fazer o custo diminuir? 
+
+
+

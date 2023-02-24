@@ -1,0 +1,10 @@
+O conceito de índice baseia-se assim, que... se eu for pesquisar um conjunto de dados, buscar um dado dentro de uma lista de informações, onde esse dado que eu estou buscando, se ele está previamente classificado, ordenado, é muito mais fácil achar esse dado, do que se eu tivesse procurando essa informação numa lista totalmente espalhada.
+
+
+chave primaria = nenhum registro pode se repetir com a mesma chave
+
+a cada alteração na tabela, tem que alterar os índices
+
+a InnoDB, há uma distinção entre o índice que está associado à chave primária e ao que não é chave primária. Quando eu tenho um índice associado à chave primária, ele faz parte da tabela de dados.
+
+Muitos índices vão fazer com que comandos de INSERT, UPDATE e DELETE fiquem mais lentos

@@ -1,0 +1,23 @@
+Esses dois algoritmos são os BTREE e HASH, são dois algoritmos diferentes que nós usamos para buscar alguém dentro de uma lista ordenada. Então, independente de como é a minha estrutura de índice, eu vou ter que fazer buscas nessas listas que já foram previamente ordenadas.
+
+MyISAM, ele suporta índices que usam o algoritmo de cada BTREE ou HASH. Já o InnoDB não, o InnoDB, ele só utiliza algoritmos de busca, do tipo BTREE. 
+
+
+
+Quando a gente monta essa árvore binária, a gente garante sempre que todos os valores que estão a esquerda do nó, são valores menores do que o valor do nó e todos os valores que estão a direita do nó, são valores maiores do que o nó.
+
+
+Na árvore binária normal, quando eu monto esse algoritmo de esquerda e direita, eu não garanto para vocês que a árvore tem os mesmos nós, tanto para um lado, quanto para o outro. Já numa árvore balanceada, a gente meio que garante que os nós estão bem distribuídos, ou seja, normalmente o topo da árvore binária é a mediana dos números, das opções que eu estou procurando.
+
+
+
+O algoritmo de BTREE, ele é matematicamente eficiente, se eu tiver, por exemplo, 4 bilhões de nós, por exemplo. Se você olhar matematicamente, no máximo eu vou precisar fazer 32 buscas para achar qualquer número num algoritmo de BTREE, por quê?
+
+Porque assim, tem 4 bilhões, então o nó do meio da árvore balanceada, vai ser o número 2 bilhões. Então, se eu quero achar um número, a primeira coisa, digamos que eu queira achar o número 1450, eu vou no 2 milhões, eu vejo esse número está à direita ou a esquerda?
+
+
+Algoritmo de HASH, ele é usado, não somente para índices, mas o HASH é usado muito para criptografia, para armazenagem de senhas e o algoritmo de HASH é um algoritmo matemático que permite que a gente pegue um valor de texto, um string, independente do seu tamanho, se é uma string de um caractere ou de 100 caracteres.
+
+A gente reduz isso a uma palavra de tamanho fixo, então é como se a gente, por exemplo, essa tabela, eu tenho lá o seguinte, eu tenho uma string, aqui tem um montão de letras e aplicando o algoritmo de HASH nele, eu transformo essa string em outros caracteres de string com tamanho fixo.
+
+
